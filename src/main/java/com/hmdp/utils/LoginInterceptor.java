@@ -30,7 +30,7 @@ public class LoginInterceptor implements HandlerInterceptor {
         }
 
         //5.存在保存用户信息到TreadLocal
-        UserHolder.saveUser((User) user);
+        UserHolder.saveUser((UserDTO) user);
 
         //6.放行
 
